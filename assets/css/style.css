@@ -123,7 +123,8 @@
 
   /*Forms reservation*/
   h4 {
-    margin-bottom: 1%;
+    margin: 1% auto .5% auto;
+    color: var(--dkGrey);
   }
 
   .form-group {
