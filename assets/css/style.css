@@ -41,7 +41,7 @@
 /*Header*/
   header, .container {
     text-align: center;
-    margin: .25%;
+    margin: .2% 10% auto 10%;
     background-color: var(--lightgrey);
     background-size: cover;
     padding: 1%;
@@ -59,10 +59,30 @@
 
   /*body*/
   #subHead {
-      
+      font-size: 25px;
+      margin: .5% auto 3% auto;
+  }
+  #viewButton, #bookButton {
+    display: inline;
+    border-radius: 5px 20px 5px 8px;
+    border: 1px solid var(--blue);
+    margin: 5% auto auto 2%;
+    padding: 1%;
+    background-color: var(--dkGrey);
+    color: var(--white);
   }
 
-  .apis {
+  #viewButton:hover, #bookButton:hover {
+    transform: rotate(-1deg);
+    cursor: pointer;
+    border: 1px outset var(--green);
+  }
+
+  #viewButton:active, #bookButton:active {
+    transform: rotate(-1deg);
+    cursor: pointer;
+    border: 1px inset var(--blue);
+  } 
+.apis {
     margin-left: 10vw;
   }
-
