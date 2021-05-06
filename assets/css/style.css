@@ -112,14 +112,35 @@
     border: 1px inset var(--blue);
   } 
 
-  #reserve, #waiting, #userInput {
+  #reserve, #waiting {
       height: 500px;
       overflow-y: scroll;
   }
 
+  #userInput {
+    height: 500px;
+  }
+
+  /*Forms reservation*/
+  h4 {
+    margin: 1% auto .5% auto;
+    color: var(--dkGrey);
+  }
+
+  .form-group {
+    /*display:inline-block;*/
+    margin: 1%;
+  }
+  
   .formInput {
-      padding: 3px;
-      border-radius: 5px;
+    border-left:45vw;
+    border-right:45vw;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .formInput:hover {
+      border-color: var(--green);
   }
 
 /*Footer*/
@@ -162,13 +183,3 @@
 }
 }
 
-.form-group {
-  /*display:inline-block;*/
-  margin: 1%;
-}
-
-.form-input {
-  width: 45%;
-  border-left:45vw;
-  border-right:45vw;
-}
