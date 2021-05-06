@@ -13,17 +13,24 @@
   
 <body>
 <header>
-   <h1 id="hawt">Hawt Booking System</h1>
-   
+    <h1 id="hawt">Current Reservations and Table List</h1>
 </header>
+<section class="container">
+    <h3>Current Reservations</h3>
+    <div class="card">
+        <ul id="reservedTables" class="list"></ul>
+    </div>
 
-<section class="container" id="buttonSection">
-    <h2 id="subHead">Book a table before they are all gone!</h2>
-    <a href="tables.html"><h3 id="viewButton">View Tables</h3></a>
-    <h3 id="bookButton">Make Reservation</h3>
+</section>
+
+<section class="container" id="waiting">
+    <h3>Waiting List</h3>
+    <div class="card">
+        <ul id="waitingList" class="list"></ul>
+    </div>
 </section>
 <footer class="apis">
-    <p id="apiLinks"><a href=''>API Table Link</a> | <a href="">API Wait List</a></p>
+<p id="apiLinks"><a href=''>API Table Link</a> | <a href="">API Wait List</a></p>
 </footer>
 </body>
 <script src="./assets/js/script.js"></script>

@@ -38,13 +38,17 @@
     box-shadow: inset 0 0 3px var(--midgrey);
   }
 
+  a {
+      text-decoration: none;
+  }
+  
 /*Header*/
   header, .container {
     text-align: center;
-    margin: .2% 10% auto 10%;
+    margin: 2% 15% auto 15%;
     background-color: var(--lightgrey);
     background-size: cover;
-    padding: 1%;
+    padding: 2%;
     border-radius: 20px 5px 3px 5px;
     height: 200px;
     opacity: 90%;
@@ -58,11 +62,18 @@
   }
 
   /*body*/
+  .container {
+      height: 400px;
+      margin-top: .2%;
+  }
+
   #subHead {
       font-size: 25px;
-      margin: .5% auto 3% auto;
+      margin: 1% auto 10% auto;
   }
-  #viewButton, #bookButton, #homeButton {
+
+  #viewButton, #bookButton, #homeButton, #submitButton {
+
     display: inline;
     border-radius: 5px 20px 5px 8px;
     border: 1px solid var(--blue);
@@ -84,7 +95,22 @@
     border: 1px inset var(--blue);
   } 
 
-  @media (max-width: 1500px) {#viewButton, #bookButton, #homeButton, #submitButton {
+
+/*Footer*/
+    .apis {
+        text-align: center;
+        margin: .2% 15% auto 15%;
+        background-color: var(--lightgrey);
+        background-size: cover;
+        padding: 2%;
+        border-radius: 20px 5px 3px 5px;
+        height: 100px;
+        opacity: 90%;
+        box-shadow: 5px;   
+  }
+
+@media (max-width: 1500px) {#viewButton, #bookButton, #homeButton, #submitButton {
+
     display: block !important;
     position: relative !important;
   }
@@ -93,7 +119,4 @@
 @media (max-width: 1500px) {.container {
     height: fit-content;
 }
-
-  .apis {
-    margin-left: 10vw;
-  }
+}
