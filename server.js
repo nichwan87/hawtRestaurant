@@ -17,7 +17,9 @@ let currentReservationData = [
        email : 'tinkubansal21@gmail.com',
        uniqueId : 1234
     }
-]
+];
+
+module.exports = currentReservationData;
 
 let waitingReservationData = [
     { name : 'Tinku',
@@ -25,7 +27,9 @@ let waitingReservationData = [
        email : 'tinkubansal21@gmail.com',
        uniqueId : 1234
     }
-]
+];
+
+module.exports = waitingReservationData;
 
 let currentReservations = 1;
 let waitingList = 1;
