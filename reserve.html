@@ -61,18 +61,15 @@
     <script src=./jquery-min.js></script>
     <script type="text/javascript">
     const submitBtn = document.getElementById('submitButton');
-    const cName = document.getElementById('nameInput');
-    const pNumber = document.getElementById('phInput');
-    const email = document.getElementById('emailInput');
-    const id = document.getElementById('idInput');
+    
 
         submitBtn.addEventListener("click", e => {
             e.preventDefault();
             var newReservation = {
-                cName.val().trim(),
-                pNumber.val().trim(),
-                email.val().trim(),
-                id.val().trim()
+                customerName:$("#nameInput").val().trim(),
+                phoneNumber:$("#phInput").val().trim(),
+                customerEmail:$("#emailInput").val().trim(),
+                customerID:$("#idInput").val().trim()
             };
             console.log(newReservation)
         })
