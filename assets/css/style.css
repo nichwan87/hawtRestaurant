@@ -1,0 +1,39 @@
+:root {
+    --transition: all 0.6s ease;
+    --black:#000; 
+    --white:#fff;
+    --lightgrey: #f9f9f9;
+    --midgrey:  #dbdbdb;
+    --blue:#87ceeb;
+    --green: rgb(72,225,12);
+    --dkGrey: #333;
+  }
+
+  /*universalSelector*/
+  body {
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px var(--midgrey);
+    border-radius: 15px;
+    background-color: var(--blue);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 15px;
+    box-shadow: inset 0 0 3px var(--midgrey);
+  }
