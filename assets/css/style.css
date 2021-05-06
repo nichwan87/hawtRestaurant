@@ -72,6 +72,23 @@
       margin: 1% auto 10% auto;
   }
 
+  #resHead {
+    font-size: 25px;
+    margin: 1% auto 1% auto;
+  }
+  
+  #links {
+    text-align: center;
+    margin: .2% 15% auto 15%;
+    background-color: var(--lightgrey);
+    background-size: cover;
+    padding: 2%;
+    border-radius: 20px 5px 3px 5px;
+    height: 200px;
+    opacity: 90%;
+    box-shadow: 5px;   
+  }
+
   #viewButton, #bookButton, #homeButton, #submitButton {
 
     display: inline;
@@ -95,6 +112,10 @@
     border: 1px inset var(--blue);
   } 
 
+  #reserve, #waiting, #userInput {
+      height: 500px;
+      overflow-y: scroll;
+  }
 
 /*Footer*/
     .apis {
