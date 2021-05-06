@@ -71,6 +71,11 @@
       font-size: 25px;
       margin: 1% auto 10% auto;
   }
+
+  #resHead {
+    font-size: 25px;
+    margin: 1% auto 1% auto;
+  }
   
   #links {
     text-align: center;
