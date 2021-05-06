@@ -109,7 +109,6 @@
         box-shadow: 5px;   
   }
 
-<<<<<<< HEAD
     #apiLinks1, #apiLinks2 {
         font-weight: 500;
         color: var(--dkGrey);
@@ -126,11 +125,7 @@
         cursor: grabbing;
     }
 
-@media (max-width: 1500px) {#viewButton, #bookButton {
-=======
 @media (max-width: 1500px) {#viewButton, #bookButton, #homeButton, #submitButton {
-
->>>>>>> 8ca220668b38570af89f9a5be634dad28165d313
     display: block !important;
     position: relative !important;
   }
