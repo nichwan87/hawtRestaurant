@@ -107,6 +107,10 @@
     border: 1px inset var(--blue);
   } 
 
+  #reserve, #waiting {
+      height: 500px;
+      overflow-y: scroll;
+  }
 
 /*Footer*/
     .apis {
