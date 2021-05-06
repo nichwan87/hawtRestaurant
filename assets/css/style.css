@@ -83,6 +83,17 @@
     cursor: pointer;
     border: 1px inset var(--blue);
   } 
-.apis {
+
+  @media (max-width: 1500px) {#viewButton, #bookButton {
+    display: block !important;
+    position: relative !important;
+  }
+}
+
+@media (max-width: 1500px) {.container {
+    height: fit-content;
+}
+
+  .apis {
     margin-left: 10vw;
   }
