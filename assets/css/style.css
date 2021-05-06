@@ -126,20 +126,20 @@
     margin-bottom: 1%;
   }
 
-  .formInput {
-      padding: 3px;
-      border-radius: 5px;
-  }
-
   .form-group {
     /*display:inline-block;*/
     margin: 1%;
   }
   
-  .form-input {
-    width: 45%;
+  .formInput {
     border-left:45vw;
     border-right:45vw;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  .formInput:hover {
+      border-color: var(--green);
   }
 
 /*Footer*/
