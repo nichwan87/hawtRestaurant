@@ -39,15 +39,16 @@
   }
 
 /*Header*/
-  header {
+  header, .container {
     text-align: center;
-    margin: 1%;
+    margin: .25%;
     background-color: var(--lightgrey);
     background-size: cover;
     padding: 1%;
     border-radius: 20px 5px 3px 5px;
     height: 200px;
-    opacity: 80%;   
+    opacity: 90%;
+    box-shadow: 5px;   
 }
 
   header h1 {
@@ -55,3 +56,9 @@
     font-size: 40px;
     color: var(--dkGrey);
   }
+
+  /*body*/
+  #subHead {
+      
+  }
+
