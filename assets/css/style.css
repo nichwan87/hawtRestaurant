@@ -41,7 +41,7 @@
   a {
       text-decoration: none;
   }
-  
+
 /*Header*/
   header, .container {
     text-align: center;
@@ -90,7 +90,7 @@
 
   #viewButton:active, #bookButton:active {
     transform: rotate(-1deg);
-    cursor: pointer;
+    cursor: grabbing;
     border: 1px inset var(--blue);
   } 
 
@@ -106,6 +106,22 @@
         opacity: 90%;
         box-shadow: 5px;   
   }
+
+    #apiLinks1, #apiLinks2 {
+        font-weight: 500;
+        color: var(--dkGrey);
+    }
+
+    #apiLinks1:hover, #apiLinks2:hover {
+        font-weight: 650;
+        cursor: pointer;
+    }
+
+    #apiLinks1:active, #apiLinks2:active {
+        font-weight: 500;
+        text-decoration: underline;
+        cursor: grabbing;
+    }
 
 @media (max-width: 1500px) {#viewButton, #bookButton {
     display: block !important;
