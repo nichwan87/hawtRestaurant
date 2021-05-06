@@ -53,7 +53,7 @@
     height: 200px;
     opacity: 90%;
     box-shadow: 5px;   
-}
+  }
 
   header h1 {
     margin-top: 2%;
@@ -72,7 +72,8 @@
       margin: 1% auto 10% auto;
   }
 
-  #viewButton, #bookButton {
+  #viewButton, #bookButton, #homeButton, #submitButton {
+
     display: inline;
     border-radius: 5px 20px 5px 8px;
     border: 1px solid var(--blue);
@@ -82,17 +83,18 @@
     color: var(--white);
   }
 
-  #viewButton:hover, #bookButton:hover {
+  #viewButton:hover, #bookButton:hover, #homeButton:hover, #submitButton:hover {
     transform: rotate(-1deg);
     cursor: pointer;
     border: 1px outset var(--green);
   }
 
-  #viewButton:active, #bookButton:active {
+  #viewButton:active, #bookButton:active, #homeButton:active, #submitButton:active {
     transform: rotate(-1deg);
     cursor: grabbing;
     border: 1px inset var(--blue);
   } 
+
 
 /*Footer*/
     .apis {
@@ -107,6 +109,7 @@
         box-shadow: 5px;   
   }
 
+<<<<<<< HEAD
     #apiLinks1, #apiLinks2 {
         font-weight: 500;
         color: var(--dkGrey);
@@ -124,6 +127,10 @@
     }
 
 @media (max-width: 1500px) {#viewButton, #bookButton {
+=======
+@media (max-width: 1500px) {#viewButton, #bookButton, #homeButton, #submitButton {
+
+>>>>>>> 8ca220668b38570af89f9a5be634dad28165d313
     display: block !important;
     position: relative !important;
   }
