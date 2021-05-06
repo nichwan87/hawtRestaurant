@@ -107,7 +107,7 @@
     border: 1px inset var(--blue);
   } 
 
-  #reserve, #waiting {
+  #reserve, #waiting, #userInput {
       height: 500px;
       overflow-y: scroll;
   }
