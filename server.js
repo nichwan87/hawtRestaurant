@@ -18,9 +18,9 @@ app.use(express.json());
 //sample text for what the user see's
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
-app.get('/api/tables', (res, req) => res.sendFile(path.join(__dirname, '')));
+app.get('/api/reserve', (res, req) => res.sendFile(path.join(__dirname, 'reserve.html')));
 
-app.get('/api,waitList', (res, req) => res.sendFile(path.join(__dirname, '')));
+app.get('/api,tables', (res, req) => res.sendFile(path.join(__dirname, 'tables.html')));
 
 
 
