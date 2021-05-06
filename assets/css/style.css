@@ -135,3 +135,14 @@
     height: fit-content;
 }
 }
+
+.form-group {
+  display:inline-block;
+  margin: 1%;
+}
+
+.form-input {
+  width: 45%;
+  border-left:45vw;
+  border-right:45vw;
+}
