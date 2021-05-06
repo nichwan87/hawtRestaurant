@@ -62,7 +62,7 @@
       font-size: 25px;
       margin: .5% auto 3% auto;
   }
-  #viewButton, #bookButton, #homeButton {
+  #viewButton, #bookButton, #homeButton, #submitButton {
     display: inline;
     border-radius: 5px 20px 5px 8px;
     border: 1px solid var(--blue);
